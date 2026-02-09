@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxie Créative — Portfolio Photo & Vidéo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="space">
+      <div class="starfield"></div>
+      <div class="nebula"></div>
+    </div>
+
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Galaxie Créative</div>
+        <div class="nav-links">
+          <a href="#galaxy">Explorer</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-cta">Planifier un voyage</button>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio photo & vidéo</p>
+        <h1>Traversez une galaxie de créations immersives.</h1>
+        <p class="subtitle">
+          Découvrez chaque planète pour explorer un univers créatif : cinéma, rave, captations, aftermovies et bien plus.
+        </p>
+        <div class="hero-actions">
+          <button class="primary">Décoller maintenant</button>
+          <button class="secondary">Voir la bande démo</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="galaxy" class="galaxy-section">
+        <div class="section-header">
+          <h2>Carte stellaire</h2>
+          <p>Choisissez une planète pour découvrir un domaine créatif.</p>
+        </div>
+        <div class="galaxy">
+          <div class="orbit">
+            <button class="planet" data-planet="cinema">
+              <span>Cinéma</span>
+            </button>
+            <button class="planet" data-planet="rave">
+              <span>Rave</span>
+            </button>
+            <button class="planet" data-planet="captation">
+              <span>Captation</span>
+            </button>
+            <button class="planet" data-planet="aftermovie">
+              <span>Aftermovie</span>
+            </button>
+            <button class="planet" data-planet="editorial">
+              <span>Éditorial</span>
+            </button>
+          </div>
+          <div class="planet-details">
+            <div class="planet-header">
+              <p class="planet-label">Destination sélectionnée</p>
+              <h3 id="planet-title">Cinéma</h3>
+            </div>
+            <p id="planet-description">
+              Des récits visuels cinématographiques, avec une esthétique soignée et une narration immersive.
+            </p>
+            <ul id="planet-tags" class="tags"></ul>
+            <div class="planet-actions">
+              <button class="primary">Voir les projets</button>
+              <button class="ghost">Télécharger le dossier</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio-section">
+        <div class="section-header">
+          <h2>Constellations de projets</h2>
+          <p>Une sélection de collaborations marquantes, pensées pour l'émotion et l'impact.</p>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="card-image cinema"></div>
+            <div class="card-body">
+              <h3>Short Film — Nebula</h3>
+              <p>Direction artistique, color grading, narration immersive.</p>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="card-image rave"></div>
+            <div class="card-body">
+              <h3>Rave Nights — Pulse</h3>
+              <p>Stroboscopes, mouvements rapides, énergie organique.</p>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="card-image capture"></div>
+            <div class="card-body">
+              <h3>Captation Live — Aura</h3>
+              <p>Captation multicaméra, mixage sonore, diffusion live.</p>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="card-image aftermovie"></div>
+            <div class="card-body">
+              <h3>Aftermovie — Orion</h3>
+              <p>Montage rythmique, storytelling, format vertical & social.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-card">
+          <div>
+            <h2>Prêt pour la prochaine mission ?</h2>
+            <p>Discutons de votre projet et traçons ensemble une trajectoire créative.</p>
+          </div>
+          <button class="primary">Envoyer un message</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2024 Galaxie Créative. Portfolio photo & vidéo.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Vimeo</a>
+        <a href="#">Behance</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
